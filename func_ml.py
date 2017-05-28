@@ -47,7 +47,9 @@ def load_training_data(csv_data, y_allow=True):
 
 
 def config_model(p_rate, features):
-
+    """
+        Configuration Machine Learning model
+    """
     x = tf.placeholder("float", [None, features])
     y = tf.placeholder("float", [None, 2])
 

@@ -1,4 +1,5 @@
 # README #
+(Updated 2017/5/20)
 
 This README would normally document whatever steps are necessary to get your application up and running.
 The accuracy of binary classification is 98.6%.
