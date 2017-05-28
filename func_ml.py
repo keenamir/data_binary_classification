@@ -72,6 +72,9 @@ def config_model(p_rate, features):
 
 
 def load_csv(filename):
+    """
+        Load csv files and return data
+    """
     file_csv = open(filename, 'rb')
     reader = csv.reader(file_csv)
     data_csv = []
@@ -83,6 +86,9 @@ def load_csv(filename):
 
 
 def save_csv(filename, data):
+    """
+        Save the data as csv format
+    """
     file_out = open(filename, 'wb')
     writer = csv.writer(file_out)
     writer.writerows(data)
